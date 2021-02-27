@@ -1,6 +1,6 @@
 <?php
 
-$dbcreds = parse_ini_file('../env.ini', true);
+$dbcreds = parse_ini_file('../../env.ini', true);
 
 // Create connection
 $conn = new mysqli(
